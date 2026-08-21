@@ -18,17 +18,35 @@ I am particularly interested in problems involving **uncertainty, resource alloc
 
 ## Selected Projects
 
-### 🔥 [Stochastic Firebreak Placement](https://github.com/FrancoQuezada/stochastic-firebreak-placement)
+My work combines two complementary dimensions: **applied R&D**, where Operations Research is used to address real operational problems, and **scientific research**, where new optimization models and algorithms are developed for challenging decision problems.
 
-Risk-aware optimization for wildfire mitigation planning under uncertainty. The project studies where firebreaks should be placed under limited resources, combining stochastic optimization, CVaR, network models, and specialized decomposition algorithms.
+### Applied R&D
 
-### ⚡ [Multistage Stochastic Fair Allocation](https://github.com/FrancoQuezada/Multistage_stochastic_fair_allocation)
+#### [Oncology Multi-Appointment Scheduling](https://github.com/FrancoQuezada/oncology-multi-appointment-scheduling)
 
-Multistage stochastic optimization for fair resource allocation in energy communities. The project integrates uncertainty, adaptive decision-making, and explicit fairness considerations into energy allocation decisions.
+Decision-support methods for coordinating multiple interdependent appointments in oncology care, developed from a real collaboration with Fundación Arturo López Pérez (FALP). The project translates complex patient routes, temporal dependencies, resource availability, and limited medical capacity into scheduling heuristics and mixed-integer optimization models.
 
-### 🧠 [Approximate Information-Reuse Branch-and-Bound](https://github.com/FrancoQuezada/Probing_Approximate_IR-B-B)
+#### [Recycling Network Optimization — Estación Central](https://github.com/FrancoQuezada/recycling-network-estacion-central)
 
-Algorithmic research on optimization problems involving information acquisition and repeated related subproblems, with emphasis on lower bounds, solution reuse, approximation, and specialized branch-and-bound methods.
+Optimization-based decision support for municipal recycling-network planning, originating from a collaboration with the Municipality of Estación Central in Chile. The project combines facility location, territorial demand assignment, inventory and collection planning, and balanced districting to support infrastructure and service-design decisions.
+
+#### [Employee Transportation Routing Optimization](https://github.com/FrancoQuezada/employee-transport-vrp)
+
+An end-to-end decision-support prototype for employee transportation planning with heterogeneous vehicle fleets. The project combines routing heuristics and mixed-integer programming to design feasible pickup routes while considering vehicle capacities, route-duration limits, fleet availability, travelled distance, and operating costs.
+
+### Scientific & Algorithmic Research
+
+#### [extSDDiP for Stochastic Uncapacitated Lot-Sizing](https://github.com/FrancoQuezada/SULS-IJOC2021)
+
+Research implementation of **extSDDiP**, combining stochastic dual dynamic integer programming with polyhedral strengthening techniques for multistage stochastic lot-sizing under uncertain demand and costs. The work develops specialized valid inequalities and decomposition strategies for difficult multistage integer optimization problems and was published in *INFORMS Journal on Computing*.
+
+#### [Stochastic Firebreak Placement](https://github.com/FrancoQuezada/stochastic-firebreak-placement)
+
+Stochastic and risk-aware optimization for strategic wildfire mitigation under uncertain fire-spread scenarios. The research develops specialized Branch-and-Benders methods, valid inequalities, and decomposition strategies for expectation-, CVaR-, and Mean-CVaR-based formulations, with a focus on solving large stochastic firebreak-placement problems efficiently.
+
+#### [Probing-Enhanced Stochastic Programming: Approximate Branch-and-Bound](https://github.com/FrancoQuezada/Probing_Approximate_IR-B-B)
+
+Algorithmic research on stochastic optimization problems in which **probing decisions acquire information before operational decisions are made**. The project develops an approximate information-relaxation Branch-and-Bound method for stochastic production planning, combining specialized lower bounds, approximation mechanisms, variable fixing, and exact fallback strategies to reduce the computational burden of information-dependent decision problems.
 
 ## From Research to Applied Solutions
 
